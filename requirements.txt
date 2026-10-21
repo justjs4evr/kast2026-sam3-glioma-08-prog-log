@@ -1,0 +1,15 @@
+# Core (versions as used in Aug 2026; pin as needed)
+torch>=2.3
+numpy
+pandas
+pyarrow          # results/*.parquet
+scipy
+monai            # DiceCE loss, HD95/NSD metrics
+peft             # LoRA
+nibabel
+SimpleITK
+wandb            # optional: experiment logging
+# External (install from source):
+#   SAM3       https://github.com/facebookresearch/sam3
+#   MedSAM3    (vision-encoder LoRA weights, medsam3_v1_lora.pt)
+#   nnU-Net v2 https://github.com/MIC-DKFZ/nnUNet  (baseline only)

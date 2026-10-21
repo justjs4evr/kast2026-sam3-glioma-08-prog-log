@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.pt
+*.pth
+*.ckpt
+*.npz
+*.nii
+*.nii.gz
+runs/
+data/
+wandb/
+.secrets
+.env
